@@ -1,0 +1,182 @@
+/* css/style.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+/* Container geral */
+.container {
+    width: 700px; 
+    height: 600px;
+    margin: 0 auto 50px auto;
+    padding: 50px;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Container de cadastro com cor de fundo lilás claro */
+.cadastro-container {
+    background-color: #d3d3d3; /*cinza */
+}
+
+/* Container de listagem com fundo cinza */
+.lista-container {
+    background-color: #d3d3d3; /* Cinza */
+    width: 80%; 
+    margin: 20px auto 0 auto; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-width: 20px;
+   
+}
+
+/* Títulos */
+h1, h2 {
+    color: #000000; /* Alterado para #b695c0 */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Formulário */
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #7B2CBF; /* Alterado para #b695c0 */
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="email"] {
+    width: 100%;
+    padding: 10px; /* Aumentado de 8px para 10px */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff; /* Branco */
+}
+
+.form input[type="submit"] {
+    width: 100%;
+    padding: 12px; /* Aumentado de 10px para 12px */
+    background-color: #7B2CBF; /* Alterado para #b695c0 */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Aumentado para melhor visibilidade */
+}
+
+.form input[type="submit"]:hover {
+    background-color: #a183b0; /* Leve escurecimento */
+}
+
+/* Botões de ação */
+.btn {
+    padding: 8px 12px; /* Aumentado para melhor usabilidade */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.cadastrar-btn {
+    background-color: #0000; /* Alterado para #b695c0 */
+}
+
+.cadastrar-btn:hover {
+    background-color: #a183b0; /* Leve escurecimento */
+}
+
+.excluir-btn {
+    background-color: #dc143c; /* Vermelho */
+}
+
+.excluir-btn:hover {
+    background-color: #c01030;
+}
+
+.buscar-btn {
+    background-color: #28a745; /* Verde */
+}
+
+.buscar-btn:hover {
+    background-color: #218838;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 12px; /* Aumentado de 10px para 12px */
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Campo de Pesquisa */
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    flex: 1;
+    padding: 10px; /* Aumentado de 8px para 10px */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #ffffff; /* Branco */
+}
+
+.search-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #28a745; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Mensagens */
+.mensagem {
+    padding: 15px; 
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mensagem {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
